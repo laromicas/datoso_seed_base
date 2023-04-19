@@ -3,7 +3,7 @@ from datoso_seed_base.dats import BaseDat
 rules = [
     {
         'name': 'Base Dat',
-        'class_name': BaseDat,
+        '_class': BaseDat,
         'seed': 'nointro',
         'priority': 50,
         'rules': [

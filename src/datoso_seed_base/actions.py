@@ -1,17 +1,17 @@
 from datoso_seed_base.dats import BaseDat
 
 actions = {
-    '{dat_path}': [
+    '{dat_origin}': [
         {
             'action': 'LoadDatFile',
-            'class_name': BaseDat
+            '_class': BaseDat
         },
         {
             'action': 'DeleteOld'
         },
         {
             'action': 'Copy',
-            'folder': 'DatRoot'
+            'folder': '{dat_destination}'
         },
         {
             'action': 'SaveToDatabase'
