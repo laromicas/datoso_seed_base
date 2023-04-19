@@ -1,9 +1,9 @@
-import datoso_seed_base
+from datoso_seed_base.dats import BaseDat
 
 rules = [
     {
         'name': 'Base Dat',
-        'class_name': datoso_seed_base.dats.BaseDat,
+        'class_name': BaseDat,
         'seed': 'nointro',
         'priority': 50,
         'rules': [

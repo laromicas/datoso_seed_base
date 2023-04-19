@@ -1,10 +1,10 @@
-import datoso_seed_base
+from datoso_seed_base.dats import BaseDat
 
 actions = {
     '{dat_path}': [
         {
             'action': 'LoadDatFile',
-            'class_name': datoso_seed_base.dats.BaseDat
+            'class_name': BaseDat
         },
         {
             'action': 'DeleteOld'
