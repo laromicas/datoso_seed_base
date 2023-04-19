@@ -1,7 +1,7 @@
 from datoso.repositories.dat import ClrMameProDatFile, XMLDatFile
 
 class BaseDat(XMLDatFile):
-    seed: str = 'nointro'
+    seed: str = 'Base'
 
     def initial_parse(self) -> list:
         """ Parse the dat file. """
