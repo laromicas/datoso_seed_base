@@ -4,8 +4,8 @@ rules = [
     {
         'name': 'Base Dat',
         '_class': BaseDat,
-        'seed': 'nointro',
-        'priority': 50,
+        'seed': 'Base',
+        'priority': 0,
         'rules': [
             {
                 'key': 'url',
