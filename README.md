@@ -36,7 +36,7 @@ $ cd datoso_seed_base
 $ ./init.sh [new_name]   #e.g. ./init.sh newnointro
 
 ```
-This created a new folder with the name `datoso_seed_newnointro` with a scaffold to begin.
+This creates a new folder with the name `datoso_seed_newnointro` with a scaffold to begin.
 
 ## TODO
 
