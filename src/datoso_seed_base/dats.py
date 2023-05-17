@@ -1,4 +1,4 @@
-from datoso.repositories.dat import ClrMameProDatFile, XMLDatFile
+from datoso.repositories.dat import ClrMameProDatFile, XMLDatFile # noqa: F401
 
 class BaseDat(XMLDatFile):
     seed: str = 'Base'
