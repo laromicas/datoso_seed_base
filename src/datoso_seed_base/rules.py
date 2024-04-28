@@ -10,15 +10,15 @@ rules = [
             {
                 'key': 'url',
                 'operator': 'contains',
-                'value': 'www._base.org'
+                'value': 'www._base.org',
             },
             {
                 'key': 'homepage',
                 'operator': 'eq',
-                'value': '_base'
-            }
-        ]
-    }
+                'value': '_base',
+            },
+        ],
+    },
 ]
 
 
