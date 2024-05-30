@@ -1,4 +1,4 @@
-from datoso.repositories.dat import ClrMameProDatFile, XMLDatFile  # noqa: F401
+from datoso.repositories.dat_file import ClrMameProDatFile, XMLDatFile  # noqa: F401
 
 
 class BaseDat(XMLDatFile):
