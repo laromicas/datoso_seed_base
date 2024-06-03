@@ -1,12 +1,14 @@
+"""DAT files for Base."""
 from datoso.repositories.dat_file import ClrMameProDatFile, XMLDatFile  # noqa: F401
 
 
 class BaseDat(XMLDatFile):
+    """Base DAT file."""
+
     seed: str = 'Base'
 
     def initial_parse(self) -> list:
         """Parse the dat file."""
-        # pylint: disable=R0801
         self.prefix = ''
         self.company = ''
         self.system = ''
