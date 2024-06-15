@@ -11,7 +11,7 @@ Datoso base is a scaffold for new plugins for datoso.
 
 ## Installation
 
-Datoso requires python 3.10+.
+Datoso requires python 3.11+.
 
 Use pip (recommended to use a virtual environment):
 
