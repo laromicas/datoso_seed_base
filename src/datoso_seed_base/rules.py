@@ -1,3 +1,4 @@
+"""Rules for the 'base' seed."""
 from datoso_seed_base.dats import BaseDat
 
 rules = [
@@ -10,17 +11,18 @@ rules = [
             {
                 'key': 'url',
                 'operator': 'contains',
-                'value': 'www._base.org'
+                'value': 'www._base.org',
             },
             {
                 'key': 'homepage',
                 'operator': 'eq',
-                'value': '_base'
-            }
-        ]
-    }
+                'value': '_base',
+            },
+        ],
+    },
 ]
 
 
-def get_rules():
+def get_rules() -> list:
+    """Get the rules."""
     return rules
