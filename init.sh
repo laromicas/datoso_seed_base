@@ -9,6 +9,7 @@ cd ..
 mkdir datoso_seed_${name}
 cp -r datoso_seed_base/* datoso_seed_${name}/
 cp datoso_seed_base/.gitignore datoso_seed_${name}/.gitignore
+cp -r datoso_seed_base/.github/ datoso_seed_${name}/.github/
 cd datoso_seed_${name}
 
 if [ -d ".git" ]; then
