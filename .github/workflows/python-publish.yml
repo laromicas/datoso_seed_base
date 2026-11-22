@@ -17,7 +17,8 @@ permissions:
 
 jobs:
   deploy:
-
+    # datoso_seed_base is a scaffold released on GitHub only; copies of it publish normally.
+    if: github.repository != 'laromicas/datoso_seed_base'
     runs-on: ubuntu-latest
 
     steps:
