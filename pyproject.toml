@@ -38,4 +38,5 @@ include-package-data = true
 version = {attr = "datoso_seed_base.__version__"}
 
 [tool.datoso-dev]
-pypi = false  # scaffold, GitHub releases only
+pypi = false  # scaffold: never published to PyPI
+release = false  # template copied by init.sh: never tagged or released
